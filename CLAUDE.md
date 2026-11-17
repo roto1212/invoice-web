@@ -1,6 +1,6 @@
 # 🤖 Claude Code 개발 지침
 
-**nextjs-16-starter**는 Next.js 16.4.6 + React 19 기반 모던 웹 애플리케이션 스타터 템플릿입니다.
+**invoice-web**은 Notion에 입력한 견적서를 클라이언트가 웹에서 확인하고 PDF로 내려받는 MVP입니다. (학습용 프로젝트, `nextjs-16-starter` 기반)
 
 ## 🛠️ 핵심 기술 스택
 
@@ -25,19 +25,19 @@
 
 ```bash
 # 개발
-ppnpm dev         # 개발 서버 실행 (Turbopack)
-ppnpm build       # 프로덕션 빌드
-ppnpm check-all   # 모든 검사 통합 실행 (권장)
+pnpm dev         # 개발 서버 실행 (Turbopack)
+pnpm build       # 프로덕션 빌드
+pnpm check-all   # 모든 검사 통합 실행 (권장)
 
 # UI 컴포넌트
-ppnpm dlx shadcn@latest add button    # 새 컴포넌트 추가
+pnpm dlx shadcn@latest add button    # 새 컴포넌트 추가
 ```
 
 ## ✅ 작업 완료 체크리스트
 
 ```bash
-ppnpm check-all   # 모든 검사 통과 확인
-ppnpm build       # 빌드 성공 확인
+pnpm check-all   # 모든 검사 통과 확인
+pnpm build       # 빌드 성공 확인
 ```
 
-💡 **상세 규칙은 위 개발 가이드 문서들을 참조하세요
+💡 **상세 규칙은 위 개발 가이드 문서들을 참조하세요**

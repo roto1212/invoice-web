@@ -1,7 +1,7 @@
-# nextjs-16-starter
+# invoice-web
 
-Next.js 16 + React 19.2 + TypeScript + TailwindCSS v4 + shadcn/ui 스타터 템플릿입니다.
-(Next.js 15.x 보안 이슈로 `claude-nextjs-starters`를 16 기반으로 마이그레이션한 버전)
+Notion에 입력한 견적서를 클라이언트가 웹에서 확인하고 PDF로 내려받는 MVP입니다. (학습용 프로젝트)
+[`nextjs-16-starter`](https://github.com/roto1212/nextjs-16-starter)(Next.js 16 + React 19.2 + TypeScript + TailwindCSS v4 + shadcn/ui)를 기반으로 시작했습니다.
 
 ## 요구 사항
 
@@ -17,4 +17,4 @@ pnpm check-all    # typecheck + lint + format:check
 pnpm build
 ```
 
-개발 지침은 `CLAUDE.md`와 `docs/guides/`를 참고하세요.
+요구사항과 개발 순서는 `docs/PRD.md`, `docs/ROADMAP.md`를, 개발 지침은 `CLAUDE.md`와 `docs/guides/`를 참고하세요.
